@@ -1,34 +1,29 @@
-import React, { useEffect, useState } from "react";
-import "./App.css";
+import React, { useEffect, useState } from "react"
+import "./App.css"
 
-import {
-  Container,
-  Footer,
-} from "./styles";
-
-import HeaderSite from "./components/Header/Header";
-import PrimarySection from "./components/Section/Section";
-import Projects from "./components/ListProjects/Projects";
-import SectionsContacts from "./components/SectionContacts/SectionContacts";
+import HeaderSite from "./components/Header/Header"
+import Projects from "./components/ListProjects/Projects"
+import PrimarySection from "./components/Section/Section"
+import SectionsContacts from "./components/SectionContacts/SectionContacts"
+import { Container, Footer } from "./styles"
 
 const App = () => {
-  const [activeButton, setActiveButton] = useState(false);
+  const [activeButton, setActiveButton] = useState(false)
 
   useEffect(() => {
     const positionScroll = () => {
       if (window.scrollY > 250) {
-        setActiveButton(true);
+        setActiveButton(true)
       } else {
-        setActiveButton(false);
+        setActiveButton(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", positionScroll);
-  }, []);
+    window.addEventListener("scroll", positionScroll)
+  }, [])
 
   return (
     <Container>
-      
       <HeaderSite />
 
       <PrimarySection />
@@ -36,19 +31,16 @@ const App = () => {
       <Projects />
 
       <SectionsContacts />
-      
-
-      
 
       <Footer>&copy; 2021 Site produzido por Kauã Marangoni</Footer>
       <a
         className={activeButton ? "back-to-top" : "back-to-top-disable"}
         href="#home"
       >
-        <i class="far fa-arrow-alt-circle-up"></i>
+        <i className="far fa-arrow-alt-circle-up"></i>
       </a>
     </Container>
-  );
-};
+  )
+}
 
-export default App;
+export default App

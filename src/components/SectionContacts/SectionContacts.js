@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 import {
   Section,
@@ -8,8 +8,8 @@ import {
   RowContacts,
   // HandClick,
   BoxLinks,
-  ImagesLinks,
-} from "./SectionContactsStyles";
+  ImagesLinks
+} from "./SectionContactsStyles"
 
 // import ImageHand from "../../assets/click.gif";
 
@@ -20,12 +20,12 @@ const SectionsContacts = () => {
 
       <BoxContacts>
         <RowContacts>
-          <i class="fas fa-map-marker-alt"></i>
+          <i className="fas fa-map-marker-alt"></i>
           <Paragraph>Forquilhinha - Santa Catarina</Paragraph>
         </RowContacts>
 
         <RowContacts>
-          <i class="fab fa-whatsapp"></i>
+          <i className="fab fa-whatsapp"></i>
           <Paragraph>
             <a
               className="link-email"
@@ -43,7 +43,7 @@ const SectionsContacts = () => {
         /> */}
 
         <RowContacts>
-          <i class="far fa-envelope"></i>
+          <i className="far fa-envelope"></i>
           <a
             className="link-email"
             href="mailto:kauamarangonitj@gmail.com"
@@ -80,7 +80,7 @@ const SectionsContacts = () => {
         </BoxLinks>
       </BoxContacts>
     </Section>
-  );
-};
+  )
+}
 
-export default SectionsContacts;
+export default SectionsContacts

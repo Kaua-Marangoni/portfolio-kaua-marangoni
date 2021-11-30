@@ -1,23 +1,23 @@
-import React from "react";
+import React from "react"
 
-import { Header, H1, Ul, Li } from "./HeaderStyles";
+import { Header, H1, Ul, Li } from "./HeaderStyles"
 
 const HeaderSite = () => {
   return (
     <Header id="home">
       <H1>Kauã Marangoni</H1>
       <input type="checkbox" id="check" />
-      <label className="bars" for="check">
-        <i class="fas fa-bars"></i>
+      <label className="bars" htmlFor="check">
+        <i className="fas fa-bars"></i>
       </label>
-      <label className="close" for="check">
-        <i class="fas fa-times"></i>
+      <label className="close" htmlFor="check">
+        <i className="fas fa-times"></i>
       </label>
 
       <nav>
         <Ul className="ul">
-          <a className="nav-links" href="#contact">
-            <Li className="li">Sobre</Li>
+          <a className="nav-links" href="#sobre">
+            <Li className="li">Social</Li>
           </a>
           <a className="nav-links" href="#projects">
             <Li className="li">Projetos</Li>
@@ -28,7 +28,7 @@ const HeaderSite = () => {
         </Ul>
       </nav>
     </Header>
-  );
-};
+  )
+}
 
-export default HeaderSite;
+export default HeaderSite

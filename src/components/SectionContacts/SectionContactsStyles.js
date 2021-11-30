@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Section = styled.section`
   background: #434dcd;
@@ -7,17 +7,17 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-`;
+`
 
 export const TitleSection = styled.h2`
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
-`;
+`
 
 export const Paragraph = styled.p`
   margin: 0;
-`;
+`
 
 export const BoxContacts = styled.div`
   text-align: center;
@@ -32,7 +32,7 @@ export const RowContacts = styled.div`
 
 export const HandClick = styled.img`
   width: 30px;
-`;
+`
 
 export const BoxLinks = styled.i`
   font-size: 25px;
@@ -41,6 +41,6 @@ export const BoxLinks = styled.i`
   justify-content: center;
   align-items: center;
   gap: 15px;
-`;
+`
 
-export const ImagesLinks = styled.i``;
+export const ImagesLinks = styled.i``

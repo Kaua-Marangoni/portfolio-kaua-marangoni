@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const Container = styled.div``;
+export const Container = styled.div``
 
 export const Footer = styled.footer`
   background: #273c75;
@@ -8,4 +8,4 @@ export const Footer = styled.footer`
   color: #f5fbef;
   font-weight: bold;
   padding: 20px 0;
-`;
+`

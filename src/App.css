@@ -132,13 +132,13 @@ button:active {
   nav {
     background: #444444;
     border-radius: 8px 0 0 8px;
-    height: 0px;
+    height: 266px;
     width: 200px;
     top: 0;
     overflow: hidden;
-    right: 0px;
-    position: absolute;
-    transition: all 500ms ease-out;
+    right: -200px;
+    position: fixed;
+    transition: all 500ms ease-in-out;
   }
 
   .ul {
@@ -166,7 +166,7 @@ button:active {
     font-size: 25px;
     padding: 10px;
     position: absolute;
-    top: 10px;
+    top: 7px;
     right: 10px;
     transition: all 600ms;
     cursor: pointer;
@@ -174,7 +174,8 @@ button:active {
   }
 
   input[type="checkbox"]:checked ~ nav {
-    height: 266px
+    right: 0;
+    position: absolute;
   }
 
   input[type="checkbox"]:checked ~ label {
