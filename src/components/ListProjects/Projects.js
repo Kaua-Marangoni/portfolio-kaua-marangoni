@@ -36,7 +36,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/conversor-moeda/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -47,7 +48,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/conversor-moeda/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -80,7 +82,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/login-yoga/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -91,7 +94,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/login-yoga/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -124,7 +128,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/to-do-list/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -135,7 +140,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/to-do-list/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -169,7 +175,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/to-do-p5d/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -180,7 +187,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/to-do-p5d/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -213,7 +221,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/interface-apple/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -224,7 +233,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/interface-apple/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -256,7 +266,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/conversor-de-moedas/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -267,7 +278,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/conversor-de-moedas/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -301,7 +313,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/stopwatch/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -312,7 +325,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/stopwatch/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -342,17 +356,22 @@ const Projects = () => {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <a href>
+                    <a
+                      href="https://pedidos-hamburgueria.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <button
                         type="button"
                         className="btn btn-sm btn-outline-success"
                       >
-                        Projeto Em Breve
+                        Ver Projeto
                       </button>
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/burguer-react/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -384,7 +403,8 @@ const Projects = () => {
                   <div className="btn-group">
                     <a
                       href="https://kaua-marangoni.github.io/login-screen-2.0/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
@@ -395,7 +415,8 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://github.com/Kaua-Marangoni/login-screen-2.0/"
-                      target="blank"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button
                         type="button"
