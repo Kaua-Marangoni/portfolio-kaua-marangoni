@@ -43,7 +43,7 @@ const PrimarySection = () => {
         </a>
       </BoxLinks>
 
-      <div className="down">
+      <div className="div-arrow-down">
         <a className="arrow-down" href="#projects">
           <i className="fas fa-chevron-down"></i>
         </a>

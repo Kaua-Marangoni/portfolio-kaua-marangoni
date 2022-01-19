@@ -9,10 +9,14 @@ export const Section = styled.section`
   justify-content: center;
   flex-direction: column;
 
-  .down {
+  .div-arrow-down {
     background: none;
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .fa-chevron-down {
