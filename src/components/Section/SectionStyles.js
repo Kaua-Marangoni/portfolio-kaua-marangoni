@@ -2,11 +2,30 @@ import styled from "styled-components"
 
 export const Section = styled.section`
   background: #434dcd;
-  padding: 70px;
+  height: calc(100vh - 70px);
   color: #fefefe;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+
+  .down {
+    background: none;
+    position: absolute;
+    bottom: 40px;
+  }
+
+  .fa-chevron-down {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 150ms;
+  }
+
+  .fa-chevron-down:hover {
+    opacity: 0.7;
+  }
 `
 
 export const MyImage = styled.img`

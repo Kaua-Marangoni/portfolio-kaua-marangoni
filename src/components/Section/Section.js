@@ -39,6 +39,12 @@ const PrimarySection = () => {
           <ImagesLinks className="fab fa-instagram"></ImagesLinks>
         </a>
       </BoxLinks>
+
+      <div className="down">
+        <a className="arrow-down" href="#projects">
+          <i className="fas fa-chevron-down"></i>
+        </a>
+      </div>
     </Section>
   )
 }
