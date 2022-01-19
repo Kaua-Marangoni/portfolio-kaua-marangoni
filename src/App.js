@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     const positionScroll = () => {
-      if (window.scrollY > 250) {
+      if (window.scrollY > 25) {
         setActiveButton(true)
       } else {
         setActiveButton(false)
