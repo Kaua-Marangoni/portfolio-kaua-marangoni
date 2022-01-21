@@ -50,7 +50,7 @@ const SectionsContacts = () => {
         <BoxLinks>
           <a
             className="links-social"
-            href="https://www.linkedin.com/in/kau%C3%A3-marangoni-119ba41a8/"
+            href="https://www.linkedin.com/in/kaua-marangoni/"
             target="_blank"
             rel="noreferrer"
           >

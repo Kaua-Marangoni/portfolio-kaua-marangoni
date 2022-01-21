@@ -445,18 +445,20 @@ const Projects = () => {
                   className="card-img-top"
                   data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
                   alt="Imagem Exemplo Tela de Login 2"
-                  src={ImageLoginScreen}
+                  // src={ImageLoginScreen}
+                  src="https://cdn.awsli.com.br/300x300/203/203149/produto/29270318/6ecdd64df7.jpg"
+                  style={{ height: 275 }}
                   data-holder-rendered="true"
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Projeto de Tela de Login. Onde você faz Login, e caso não
-                    possua login, é possível se cadastrar. Apenas Front-End.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sed, doloribus fugiat quae impedit architecto fugit. Nemo
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <a
-                        href="https://sharing-data.netlify.app/"
+                        // href="https://sharing-data.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -468,7 +470,107 @@ const Projects = () => {
                         </button>
                       </a>
                       <a
-                        href="https://github.com/Kaua-Marangoni/front-end-sharing-data/"
+                        // href="https://github.com/Kaua-Marangoni/front-end-sharing-data/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-primary"
+                        >
+                          Ver Código
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Flip>
+
+          <Flip left>
+            <div className="col-md-4">
+              <div className="card mb-4 box-shadow">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Imagem Exemplo Tela de Login 2"
+                  // src={ImageLoginScreen}
+                  src="https://cdn.awsli.com.br/300x300/203/203149/produto/29270318/6ecdd64df7.jpg"
+                  style={{ height: 275 }}
+                  data-holder-rendered="true"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sed, doloribus fugiat quae impedit architecto fugit. Nemo
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <a
+                        // href="https://sharing-data.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-success"
+                        >
+                          Ver Projeto
+                        </button>
+                      </a>
+                      <a
+                        // href="https://github.com/Kaua-Marangoni/front-end-sharing-data/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-primary"
+                        >
+                          Ver Código
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Flip>
+
+          <Flip left>
+            <div className="col-md-4">
+              <div className="card mb-4 box-shadow">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Imagem Exemplo Tela de Login 2"
+                  // src={ImageLoginScreen}
+                  src="https://cdn.awsli.com.br/300x300/203/203149/produto/29270318/6ecdd64df7.jpg"
+                  style={{ height: 275 }}
+                  data-holder-rendered="true"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sed, doloribus fugiat quae impedit architecto fugit. Nemo
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <a
+                        // href="https://sharing-data.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-success"
+                        >
+                          Ver Projeto
+                        </button>
+                      </a>
+                      <a
+                        // href="https://github.com/Kaua-Marangoni/front-end-sharing-data/"
                         target="_blank"
                         rel="noreferrer"
                       >
